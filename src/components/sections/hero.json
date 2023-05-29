@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_sections_heroes",
+    "info": {
+      "displayName": "Hero"
+    },
+    "options": {},
+    "attributes": {
+      "navItems": {
+        "type": "component",
+        "repeatable": true,
+        "component": "components.nav-item"
+      },
+      "topRightCta": {
+        "type": "component",
+        "repeatable": false,
+        "component": "components.cta"
+      },
+      "announcement": {
+        "displayName": "Announcement",
+        "type": "component",
+        "repeatable": false,
+        "component": "components.announcement"
+      },
+      "heroTitle": {
+        "type": "string"
+      },
+      "shortDescription": {
+        "type": "string"
+      },
+      "ctaGroup": {
+        "type": "component",
+        "repeatable": true,
+        "component": "components.cta"
+      }
+    }
+  }
+  
