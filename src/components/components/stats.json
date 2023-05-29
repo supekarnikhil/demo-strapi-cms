@@ -1,7 +1,8 @@
 {
   "collectionName": "components_components_stats",
   "info": {
-    "displayName": "Stat"
+    "displayName": "Stats",
+    "description": ""
   },
   "options": {},
   "attributes": {
