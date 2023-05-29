@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_price_cards",
+  "info": {
+    "displayName": "PriceCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "footNote": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "shortDescription2": {
+      "type": "string"
+    },
+    "priceCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.price-card"
+    },
+    "IncludedItemList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.check-list-item"
+    }
+  }
+}

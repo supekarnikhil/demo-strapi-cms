@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_check_list_items",
+  "info": {
+    "displayName": "CheckListItem"
+  },
+  "options": {},
+  "attributes": {
+    "itemText": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "boolean"
+    }
+  }
+}
