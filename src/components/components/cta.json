@@ -1,23 +1,31 @@
 {
-    "collectionName": "components_components_ctas",
-    "info": {
-      "displayName": "CTA"
+  "collectionName": "components_components_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-      "name": {
-        "type": "string"
-      },
-      "link": {
-        "type": "string"
-      },
-      "type": {
-        "type": "enumeration",
-        "enum": [
-          "primary",
-          "secondary"
-        ]
-      }
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "mode": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
     }
   }
-  
+}
