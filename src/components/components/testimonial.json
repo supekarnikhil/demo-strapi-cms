@@ -1,35 +1,38 @@
 {
   "collectionName": "components_components_testimonials",
   "info": {
-    "displayName": "Testimonial"
+    "displayName": "Testimonial",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Testimonial": {
+    "testimonialText": {
       "type": "string"
     },
     "clientName": {
       "type": "string"
     },
     "clientProfileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "clientsPosition": {
       "type": "string"

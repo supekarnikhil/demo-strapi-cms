@@ -20,6 +20,9 @@
     },
     "footNote": {
       "type": "string"
+    },
+    "currency": {
+      "type": "string"
     }
   }
 }

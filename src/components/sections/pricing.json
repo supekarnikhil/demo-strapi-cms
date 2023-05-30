@@ -23,7 +23,7 @@
       "repeatable": false,
       "component": "components.price-card"
     },
-    "IncludedItemList": {
+    "includedItemList": {
       "type": "component",
       "repeatable": true,
       "component": "components.check-list-item"
